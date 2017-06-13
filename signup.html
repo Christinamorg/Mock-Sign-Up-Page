@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="css" href="signup.css">
+</head>
+
+<body>
+ <h1 align="center">Please sign up below to stay updated!</h1>
+
+  <form action="/sign-up_page.php">
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="username" required>
+      <label><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Passowrd" name="psw" required>
+
+      <label><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+      <input type="checkbox" checked="checked"> Remember Me
+      <p>By creating an account, you agree to our <a href="https://media.termsfeed.com/pdf/terms-and-conditions-template.pdf">Terms & Conditions</a>.</p>
+
+      <div class="clearfix" align="center">
+        <button type="submit" class="signupbtn">Sign Up</button>
+        <button type="button" class="cancelbtn">Cancel</button>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
